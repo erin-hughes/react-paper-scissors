@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './GameOption.css';
 
 class GameOption extends Component {
     
@@ -19,7 +18,6 @@ class GameOption extends Component {
     }
 
     handleClick(e) {
-        console.log(e.target.value);
         this.props.setPlayerOption(e.target.value);
     }
 
