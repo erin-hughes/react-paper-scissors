@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import GameOption from '../../GameOption/GameOption';
-import './ResultsScene.css';
+import GameOption from '../../GameOption';
 
 class ResultsScene extends Component {
     constructor() {
@@ -32,7 +31,6 @@ class ResultsScene extends Component {
     }
 
     render() {
-        console.log('test', this.state.result)
         return (
             <>
                 <div className='results-titles-container'>
