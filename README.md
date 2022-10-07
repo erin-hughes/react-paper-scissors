@@ -10,4 +10,6 @@ There are also no tests yet.
 
 <br>
 
-Deployed on Heroku [here](https://mysterious-reaches-69251.herokuapp.com/).
+<!---
+# Deployed to Vercel [here](link).
+-->
